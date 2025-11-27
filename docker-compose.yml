@@ -4,7 +4,7 @@ networks:
         driver: bridge
 
 services:
-    minio: # S3 Bucket for uploads and download
+    minio: # S3 Bucket for uploads and downloads
         image: quay.io/minio/minio:latest
         command: server /data --console-address ":9001"
         environment:

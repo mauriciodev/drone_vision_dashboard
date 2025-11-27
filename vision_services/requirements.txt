@@ -1,0 +1,7 @@
+geoai-py
+transformers
+geopandas
+rasterio
+opencv-python
+fastapi
+websockets
